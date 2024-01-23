@@ -1,0 +1,14 @@
+@import "../../styles/base.scss";
+
+.home {
+  @include container;
+  @include directionX;
+  height: 600px;
+}
+
+@include apply-at-md-size {
+  .home {
+    max-width: 90%;
+    margin-top: 6.8rem;
+  }
+}

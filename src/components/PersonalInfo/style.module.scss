@@ -1,0 +1,17 @@
+@import "../../styles/base.scss";
+
+
+.subtitle {
+  color: $color-cool-gray;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  .buttonNext {
+    font-family: $font-ubuntu;
+    background-color: $color-primary-marine-blue;
+  }
+}
+
+

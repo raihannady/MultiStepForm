@@ -1,0 +1,20 @@
+@import "../../styles/base.scss";
+
+.summary {
+  background-color: $color-magnolia;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.buttonLayout {
+  display: flex;
+  justify-content: space-between;
+  .buttonNext {
+    font-family: $font-ubuntu;
+    background-color: $color-primary-marine-blue;
+  }
+  .buttonBack {
+    background-color: none;
+    font-family: $font-ubuntu;
+  }
+}

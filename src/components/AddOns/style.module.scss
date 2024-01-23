@@ -1,0 +1,14 @@
+@import "../../styles/base.scss";
+
+.buttonLayout {
+  display: flex;
+  justify-content: space-between;
+  .buttonNext {
+    font-family: $font-ubuntu;
+    background-color: $color-primary-marine-blue;
+  }
+  .buttonBack {
+    background-color: none;
+    font-family: $font-ubuntu;
+  }
+}

@@ -1,0 +1,10 @@
+@import "./color.scss";
+
+@mixin container {
+  max-width: 60%;
+  margin: 4rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 3px 3px rgba(171, 170, 170, 0.189);
+  background-color: $color-white;
+}
